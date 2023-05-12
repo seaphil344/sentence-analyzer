@@ -22,7 +22,7 @@ export default async function handler(req, res) {
         {
           role: 'user',
           content: `Review the sentences that are in quotations 
-          and return a JavaScript object that contains each word 
+          and return a JavaScript object that contains each word
           and what type of word it is as a key-value pair. "${prompt}"`,
         },
       ],
